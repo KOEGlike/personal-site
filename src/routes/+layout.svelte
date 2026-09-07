@@ -30,6 +30,7 @@
 
 		width: 100%;
 		height: 100%;
+		box-sizing: border-box;
 
 		padding: 1em 0;
 	}
@@ -38,10 +39,6 @@
 		height: 100%;
 
 		border-right: 0.125em solid black;
-	}
-
-	#content {
-		margin: 0.25em;
 	}
 
 	#content,
