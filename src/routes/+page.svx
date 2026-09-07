@@ -1,12 +1,10 @@
-Hi there, I'm Marcell!
-
-I'm excited about embedded systems and designing PCBs!
+**Hi there, I'm Marcell!** <br> I'm excited about embedded systems and designing PCBs!
 
 Here are some of my projects:
 
-* **[Meko](https://github.com/koeglike/meko)**: An E-Paper audio player. Currently working on V3, for which I'm making a custom SBC. Fully journaled.
-* **[Hackxpansion](https://github.com/hackclub/hackxpansion)**: A modular game console based on the RP2354, which I made for my Hack Club internship.
-* **[Mito](https://github.com/koeglike/mito)**: A wireless hot-swap low-profile split keyboard with RGB running on ZMK.
+- **[Meko](https://github.com/koeglike/meko)**: An E-Paper audio player. Currently working on V3, for which I'm making a custom SBC. Fully journaled.
+- **[Hackxpansion](https://github.com/hackclub/hackxpansion)**: A modular game console based on the RP2354, which I made for my Hack Club internship.
+- **[Mito](https://github.com/koeglike/mito)**: A wireless hot-swap low-profile split keyboard with RGB running on ZMK.
 
 Check out my [GitHub](https://github.com/koeglike) and [LinkedIn](https://www.linkedin.com/in/marcell-balazs123/).
 
