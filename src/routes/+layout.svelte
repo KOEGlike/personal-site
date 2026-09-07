@@ -1,6 +1,4 @@
 <script lang="ts">
-	import '../app.css';
-
 	let { children } = $props();
 </script>
 
@@ -11,13 +9,43 @@
 		content="Portfolio of Marcell Balázs, embedded systems and PCB design projects including Meko, Hackxpansion, and Mito."
 	/>
 </svelte:head>
-<div
-	class="flex h-screen w-screen flex-row prose-xl py-2 leading-snug prose-ul:my-1 prose-li:my-0 prose-a:text-[#0000EE] prose-a:visited:text-[#551A8B] prose-a:active:text-[#EE0000] prose-a:underline prose-a:font-normal"
->
-	<div class="h-full border-r-2 border-black px-4">
+<div id="container">
+	<div id="sidebar">
 		<a href="/">Home</a>
 		<br />
 		<a href="/blog">Blog</a>
 	</div>
-	<div class="mx-4">{@render children()}</div>
+	<div id="content">{@render children()}</div>
 </div>
+
+<style>
+	:global(body) {
+		margin: 0;
+		height: 100vh;
+	}
+
+	#container {
+		display: flex;
+		flex-direction: row;
+
+		width: 100%;
+		height: 100%;
+
+		padding: 1em 0;
+	}
+
+	#sidebar {
+		height: 100%;
+
+		border-right: 0.125em solid black;
+	}
+
+	#content {
+		margin: 0.25em;
+	}
+
+	#content,
+	#sidebar {
+		padding: 0 1em;
+	}
+</style>
