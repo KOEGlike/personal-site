@@ -14,10 +14,10 @@
 		"format": "prettier --write ."
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-auto": "7",
-		"@sveltejs/adapter-static": "3",
-		"@sveltejs/enhanced-img": "0.11",
-		"@sveltejs/kit": "2",
+		"@sveltejs/adapter-auto": "8",
+		"@sveltejs/adapter-static": "4",
+		"@sveltejs/enhanced-img": "1.0",
+		"@sveltejs/kit": "3",
 		"@sveltejs/vite-plugin-svelte": "7",
 		"mdsvex": "0.12",
 		"prettier": "3",
